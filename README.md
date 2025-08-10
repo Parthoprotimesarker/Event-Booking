@@ -10,10 +10,11 @@ PASSWORD=StrongPass123!
 
 
 npx playwright test
-npx playwright test --grep @sighup
-npx playwright test --grep @login
-npx playwright test --headed
-npx playwright test --project=firefox
+npx playwright test-- grep @sighup
+npx playwright test-- grep @login
+npx playwright test-- headed
+npx playwright test-- project=firefox
+
 
 
 
